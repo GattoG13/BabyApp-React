@@ -1,10 +1,39 @@
-BabyApp-React
-Baby Activity Tracker app built using React JS, JavaScript, and a REST API. This app helps parents or caregivers easily log and monitor daily activities for their baby, such as feedings, diaper changes, and naps. Some of the key features include:
+# 👶 BabyApp-React
 
-📅 Event Logging: Users can quickly add events like feedings, walks, and more.
+BabyApp es una aplicación web diseñada para que padres o cuidadores puedan registrar y monitorear las actividades diarias de un bebé, como tomas de biberón, siestas, cambios de pañal y paseos. Está desarrollada con **React JS**, **JavaScript** y una **API REST personalizada**.
 
-⏲ Next Bottle Reminder: Real-time tracking of when the next bottle is due.
+---
 
-📊 Category Breakdown: Detailed reports showing the frequency of events by category.
+## ✨ Características principales
 
-🔥 RESTful API Integration: The backend is powered by a custom API that handles all data management efficiently.
+🔘 **Registro de eventos:**  
+Permite registrar rápidamente eventos como comidas, caminatas, siestas y más.
+
+🍼 **Recordatorio de próximo biberón:**  
+Calcula automáticamente el tiempo restante para la próxima toma, indicando con colores si está dentro del tiempo o si ya pasó.
+
+📊 **Reportes por categoría:**  
+Visualiza estadísticas y frecuencia de eventos mediante gráficas simples y categorizadas.
+
+🧠 **UX intuitiva:**  
+Interfaz sencilla y responsive con diseño adaptado a dispositivos móviles.
+
+🌐 **Integración con API REST:**  
+La lógica de negocio se basa en una API propia que gestiona eventos, usuarios y cálculos en el backend.
+
+---
+
+## 🛠️ Tecnologías utilizadas
+
+- ⚛️ React JS  
+- 💅 CSS (custom y Bootstrap)  
+- 📦 Redux Toolkit  
+- 🔗 React Router DOM  
+- 📡 API REST con fetch  
+- 📈 Chart.js para gráficas  
+- ☁️ Deploy: GitHub Pages / Vercel
+
+---
+
+## 📁 Estructura general
+
