@@ -1,39 +1,52 @@
 # 👶 BabyApp-React
 
-BabyApp es una aplicación web diseñada para que padres o cuidadores puedan registrar y monitorear las actividades diarias de un bebé, como tomas de biberón, siestas, cambios de pañal y paseos. Está desarrollada con **React JS**, **JavaScript** y una **API REST personalizada**.
+**BabyApp** is a web application that helps parents or caregivers log and track daily baby activities such as feedings, naps, diaper changes, and walks. Built with **React JS**, **JavaScript**, and a custom **REST API**, this project focuses on usability, responsive design, and efficient data management.
 
 ---
 
-## ✨ Características principales
+## ✨ Key Features
 
-🔘 **Registro de eventos:**  
-Permite registrar rápidamente eventos como comidas, caminatas, siestas y más.
+🟢 **Event Logging**  
+Quickly add events like feedings, walks, naps, and more with a simple interface.
 
-🍼 **Recordatorio de próximo biberón:**  
-Calcula automáticamente el tiempo restante para la próxima toma, indicando con colores si está dentro del tiempo o si ya pasó.
+🍼 **Next Bottle Reminder**  
+Real-time indicator showing the time left until the next bottle feeding. Turns red when the scheduled time is exceeded.
 
-📊 **Reportes por categoría:**  
-Visualiza estadísticas y frecuencia de eventos mediante gráficas simples y categorizadas.
+📊 **Category Breakdown**  
+Visualize activity frequency through charts grouped by category (feedings, naps, etc.).
 
-🧠 **UX intuitiva:**  
-Interfaz sencilla y responsive con diseño adaptado a dispositivos móviles.
+📱 **Responsive UI**  
+Mobile-first layout with intuitive navigation for quick access to all features.
 
-🌐 **Integración con API REST:**  
-La lógica de negocio se basa en una API propia que gestiona eventos, usuarios y cálculos en el backend.
+🔗 **RESTful API Integration**  
+The backend handles all data operations (create, read, update, delete) using a custom API.
 
 ---
 
-## 🛠️ Tecnologías utilizadas
+## 🛠️ Technologies Used
 
 - ⚛️ React JS  
-- 💅 CSS (custom y Bootstrap)  
-- 📦 Redux Toolkit  
-- 🔗 React Router DOM  
-- 📡 API REST con fetch  
-- 📈 Chart.js para gráficas  
-- ☁️ Deploy: GitHub Pages / Vercel
+- 💅 CSS3 & Bootstrap  
+- 🧠 Redux Toolkit  
+- 🌍 React Router DOM  
+- 📡 REST API (fetch-based integration)  
+- 📈 Chart.js for data visualization  
+- ☁️ Deployment-ready for Vercel / GitHub Pages
 
 ---
 
-## 📁 Estructura general
+## 📁 Project Structure
 
+
+babyapp-react/
+├── public/ # Static assets and index.html
+├── src/
+│ ├── components/ # Reusable components (Login, Menu, Register, etc.)
+│ ├── features/ # Redux slices and logic
+│ ├── imgs/ # App images/icons
+│ ├── store/ # Redux store config
+│ ├── App.jsx
+│ ├── App.css
+│ └── index.js
+├── package.json
+├── README.md
